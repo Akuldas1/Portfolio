@@ -1,5 +1,5 @@
 import heroImg from '../assets/me.png';
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import { FaArrowAltCircleDown, FaGithubSquare, FaLinkedin, } from 'react-icons/fa';
 
 const Hero = () => {
   document.body.style.overflowX="hidden"
@@ -26,6 +26,8 @@ const Hero = () => {
               Resume
 </button></a>
 
+<a href='#projects'><button class="py-1 px-2 flex items-center gap-4 bg-black-500 text-white font-semibold rounded-lg shadow-md hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">Check Out My Projects <FaArrowAltCircleDown/> </button></a>
+<a href='#contactme'><button class="py-1 px-2 flex items-center gap-4 bg-black-500 text-white font-semibold rounded-lg shadow-md hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">Contact <FaArrowAltCircleDown/> </button></a>
           </div>
         </article>
         <article className='p-14 hidden rounded-full md:block'>

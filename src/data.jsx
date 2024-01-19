@@ -6,8 +6,7 @@ export const links = [
   { id: nanoid(), href: '#skills', text: 'SKILLS' },
   { id: nanoid(), href: '#education', text: 'EDUCATION' },
   { id: nanoid(), href: '#about', text: 'ABOUT' },
-  { id: nanoid(), href: '#projects', text: 'PROJECTS' },
-  { id: nanoid(), href: '#contactme', text: 'CONTACT ME' },
+  
   
 ];
 
