@@ -2,6 +2,7 @@ import heroImg from '../assets/me.png';
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 
 const Hero = () => {
+  document.body.style.overflowX="hidden"
   return (
     <div className=' h-screen w-screen  bg-pink-950'>
       <div className='align-element grid md:grid-cols-2 items-center gap-8'>
