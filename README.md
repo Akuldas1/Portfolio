@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #### Setup Vite and Tailwind
 
 [Tailwind Docs](https://tailwindcss.com/docs/guides/vite)
@@ -332,3 +333,7 @@ export default ProjectsCard;
 #### Extra Challenge
 
 - setup projects in CMS
+=======
+# Portfolio
+My portfolio
+>>>>>>> f1780c74b43919f5f006ab34f7b7b32e0fc377d9
