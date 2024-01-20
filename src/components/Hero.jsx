@@ -30,7 +30,7 @@ const Hero = () => {
 <a href='#contactme'><button class="py-1 px-2 flex items-center gap-4 bg-black-500 text-white font-semibold rounded-lg shadow-md hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">Contact <FaArrowAltCircleDown/> </button></a>
           </div>
         </article>
-        <article className='p-16 grid mt-20 rounded-full md:block'>
+        <article className='p-16 hidden mt-20 rounded-full md:block'>
           <img src ={heroImg} className='h-80 w-81 rounded-full aspect-square border-2 sm:2/5 lg:h-3/5' />
         </article>
       </div>
