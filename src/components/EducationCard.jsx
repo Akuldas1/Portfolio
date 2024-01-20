@@ -6,9 +6,9 @@ const EducationCard = ({ img, title, text, branch, year, cgpa }) => {
       <img
         src={img }
         alt={title}
-        className='p-5 w-full object-contain rounded-t-lg h-64'
+        className='p-5 w-full object-contain align-element rounded-t-lg h-64'
       />
-      <div className='capitalize p-8 max-h-fit'>
+      <div className='capitalize p-8'>
         <h2 className='text-xl font-bold tracking-wide text-center'>{title}</h2>
         <h2 className='mt-4 text-lg leading-loose font-semibold text-center uppercase'>{text}</h2>
         <h2 className='mt-4 text-lg leading-loose font-semibold text-center uppercase'>{branch}</h2>
