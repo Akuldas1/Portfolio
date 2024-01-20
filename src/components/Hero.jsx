@@ -4,7 +4,7 @@ import { FaArrowAltCircleDown, FaGithubSquare, FaLinkedin, } from 'react-icons/f
 const Hero = () => {
   document.body.style.overflowX="hidden"
   return (
-    <div className=' py-2 h-screen w-screen  bg-pink-950'>
+    <div className='p-1 h-screen w-screen  bg-pink-950'>
       <div className='align-element grid md:grid-cols-2 items-center gap-8'>
         <article className='text-white'>
           <h1 className='text-7xl font-bold tracking-wider mt-28'>P G Akuldas</h1>
