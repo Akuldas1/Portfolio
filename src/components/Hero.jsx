@@ -1,8 +1,8 @@
 import heroImg from '../assets/me.png';
-import { FaArrowAltCircleDown, FaGithubSquare, FaLinkedin, } from 'react-icons/fa';
+import { FaInstagram, FaGithubSquare, FaLinkedin, } from 'react-icons/fa';
 
 const Hero = () => {
-  document.body.style.overflowX="hidden"
+  document.body.style.overflowX = "hidden"
   return (
     <div className='p-1 h-screen w-screen sm:grid-cols-5 bg-pink-950'>
       <div className='align-element grid  md:grid-cols-2 items-center gap-8'>
@@ -22,19 +22,18 @@ const Hero = () => {
             <a href='https://www.linkedin.com/in/p-g-akuldas-61116b233'>
               <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
-           <a href='./P G Akuldas.pdf'> <button class="py-1 px-2 bg-black-500 text-white font-semibold rounded-lg shadow-md hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-              Resume
-</button></a>
-
-<a href='#projects'><button class="py-1 px-2 flex items-center gap-4 bg-black-500 text-white font-semibold rounded-lg shadow-md hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">Check Out My Projects <FaArrowAltCircleDown/> </button></a>
-<a href='#contactme'><button class="py-1 px-2 flex items-center gap-4 bg-black-500 text-white font-semibold rounded-lg shadow-md hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">Contact <FaArrowAltCircleDown/> </button></a>
+            <a href='https://www.instagram.com/akul_das?igsh=bmdtMDFzd20zbmxz'>
+              <FaInstagram className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+            </a>
+           
           </div>
         </article>
         <article className='p-16 hidden mt-20 rounded-full md:block'>
-          <img src ={heroImg} className='h-80 w-81 rounded-full aspect-square border-2 sm:2/5 lg:h-3/5' />
+          <img src={heroImg} className='h-80 w-81 rounded-full aspect-square border-2 sm:2/5 lg:h-3/5' />
         </article>
       </div>
     </div>
   );
 };
 export default Hero;
+

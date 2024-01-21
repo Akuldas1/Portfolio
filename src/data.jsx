@@ -1,15 +1,6 @@
 import { nanoid } from 'nanoid';
 import { FaCss3, FaDatabase, FaElementor, FaHtml5,  FaJs, FaLeaf, FaNodeJs, FaReact, FaTenge,} from 'react-icons/fa';
 
-export const links = [
-  { id: nanoid(), href: '#home', text:'HOME'},
-  { id: nanoid(), href: '#skills', text: 'SKILLS' },
-  { id: nanoid(), href: '#education', text: 'EDUCATION' },
-  { id: nanoid(), href: '#about', text: 'ABOUT' },
-  
-  
-];
-
 export const skills = [
   {
     id: nanoid(),
@@ -95,32 +86,4 @@ export const projects = [
   },
 ];
 
-export const education = [
-  {
-    id: nanoid(),
-    img: 'https://img.theweek.in/content/dam/week/education/admissions/images/2019/10/29/apj-aktu-wiki.jpg',
-    title: 'JAWAHARLAL COLLEGE OF ENGINEERING & TECHNOLOGY',
-    text: 'Bachelor of Technology',
-    branch:'Computer Science & Engineering',
-    year:'2019-2023',
-    cgpa:'7.68'
-  },
-  {
-    id: nanoid(),
-    img: 'https://yt3.googleusercontent.com/ytc/AIf8zZSccQjPQnmnZ6zrr4lfmNkpdqyf91Cviv1LDKGt7g=s900-c-k-c0x00ffffff-no-rj',
-    title: 'SREENARAYAN TRUST CENTRAL SCHOOL',
-    text: 'Higher Secondary Education',
-    branch:'Science',
-    year:'2017-2019',
-    cgpa:'79.8%'
-  },
-  {
-    id: nanoid(),
-    img: 'https://media.licdn.com/dms/image/C560BAQFMJJYl_-cnNg/company-logo_200_200/0/1630636119988?e=2147483647&v=beta&t=K_zaI-1uhaMDgunHkTSXtxh1rSdPIWl-ejruEDCOHIw',
-    title: 'CARMEL CMI SCHOOL',
-    text: 'High School Education',
-    // branch:'Computer Science & Engineering',
-    year:'2016-2017',
-    cgpa:'86%'
-  },
-];
+
