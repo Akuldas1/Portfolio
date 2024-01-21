@@ -1,4 +1,4 @@
-// import { links } from '../data';
+import { links } from '../data';
 
 const Navbar = () => {
   return (
@@ -8,22 +8,18 @@ const Navbar = () => {
           Akul<span className='text-emerald-600'>Das</span>
         </h2>
         <div className='flex gap-x-3 text-white '>
-          {/* {links.map((link) => {
+          {links.map((link) => {
             const { id, href, text} = link;
             return (
               <a
                 key={id}
                 href={href}
-                className='capitalize  tracking-wide hover:text-emerald-600 duration-300 font-bold text-2xl'
+                className='capitalize tracking-wide hover:text-emerald-600 duration-300 font-bold text-2xl'
               >
                 {text}
               </a>
             );
-          })} */}
-          <p className="capitalize  tracking-wide hover:text-emerald-600 duration-300 font-bold text-2xl">HOME</p>
-          <p className="capitalize  tracking-wide hover:text-emerald-600 duration-300 font-bold text-2xl">SKILLS</p>
-          <p className="capitalize  tracking-wide hover:text-emerald-600 duration-300 font-bold text-2xl">EDUCATION</p>
-          <p className="capitalize  tracking-wide hover:text-emerald-600 duration-300 font-bold text-2xl">ABOUT</p>
+          })}
         </div>
       </div>
     </nav>
