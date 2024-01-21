@@ -1,14 +1,14 @@
 import { nanoid } from 'nanoid';
 import { FaCss3, FaDatabase, FaElementor, FaHtml5,  FaJs, FaLeaf, FaNodeJs, FaReact, FaTenge,} from 'react-icons/fa';
 
-export const links = [
-  { id: nanoid(), href: '#home', text:'HOME'},
-  { id: nanoid(), href: '#skills', text: 'SKILLS' },
-  { id: nanoid(), href: '#education', text: 'EDUCATION' },
-  { id: nanoid(), href: '#about', text: 'ABOUT' },
+// export const links = [
+//   { id: nanoid(), href: '#home', text:'HOME'},
+//   { id: nanoid(), href: '#skills', text: 'SKILLS' },
+//   { id: nanoid(), href: '#education', text: 'EDUCATION' },
+//   { id: nanoid(), href: '#about', text: 'ABOUT' },
   
   
-];
+// ];
 
 export const skills = [
   {
