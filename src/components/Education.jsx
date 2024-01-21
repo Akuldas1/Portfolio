@@ -4,7 +4,7 @@ import SectionTitle from './SectionTitle';
 
 const Education = () => {
   return (
-    <section className='py-20 bg-pink-950 text-white p-9 w-screen' id='education'>
+    <section className='bg-pink-950 text-white p-9 w-screen' id='education'>
       <SectionTitle text='Education' />
       {/* <div className='py-16 grid lg:grid-cols-2 xl:grid-cols-3 align-element text-black gap-8'> */}
       {/* {education.map((education) => {
